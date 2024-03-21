@@ -4,11 +4,11 @@ import com.springassignment.sendemailproject.Models.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class EmailService {
     private DataSource dataSource;
 
-    @Autowired
+//    @Autowired
     public EmailService(DataSource dataSource) {
         this.dataSource = dataSource;
     }
